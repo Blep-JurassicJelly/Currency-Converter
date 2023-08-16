@@ -18,7 +18,7 @@ def help():
 
 def validate():
     valid_char = "1234567890."
-    for i in str(CurrentV):
+    for i in str(StrCurrentV):
         if str(i) not in valid_char:
             valid = "no"
         if valid == "no":
@@ -57,17 +57,19 @@ CurrentV=input("Please Insert The Value To Convert: ")
 if str(CurrentV).upper() == "HELP":
     help()
     CurrentV=input("Please Insert The Value To Convert: ")
-validate()
-while works == "no":
-    print("Invalid Formating")
-    InputU=str(input("Do you need formating help? Y/N ")).lower()
-    if InputU == "y":
-        print("Currencies must be 3 characters long (e.g., aud),")
-        print("Values should be any positive digit. A decimal place can be used to indicate cent values (e.g., 10.5 <---- This is equal to $10.5).")
-        print("Please do not use currency symbols for the values")
-    CurrentV=input("Please Insert The Value To Convert: ")
-    validate()
-
+StrCurrentV=str(CurrentV)
+#validate()
+#while works == "no":
+#    print("Invalid Formating")
+#    InputU=str(input("Do you need formating help? Y/N ")).lower()
+#    if InputU == "y":
+#        print("Currencies must be 3 characters long (e.g., aud),")
+#        print("Values should be any positive digit. A decimal place can be used to indicate cent values (e.g., 10.5 <---- This is equal to $10.5).")
+#        print("Please do not use currency symbols for the values")
+#    CurrentV=input("Please Insert The Value To Convert: ")
+#    validate()
+#    StrCurrentV=str(CurrentV)
+print()
 TransV=CurrencyConverter()
 TransV=TransV.convert(CurrentV, CurrentC, TransC)
 print(f"${CurrentV} {CurrentC} Is: ${TransV} {TransC}")
