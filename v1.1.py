@@ -49,7 +49,7 @@ while TransC not in c.currencies:
     if InputU == "y":
         print("Here is a list of accepted currencies:")
         print(c.currencies)
-    TransC=str(input("Please Insert Your Active Currency: ")).upper()
+    TransC=str(input("Please Insert The Currency That Will Be Converted To: ")).upper()
 
 print()
 
