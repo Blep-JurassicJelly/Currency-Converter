@@ -5,3 +5,5 @@ This repository will contain my code for a real time currency converter.
 Fixer API will be used for the currency information
 Thank you for reading this message from some unknown twat on the internet
 -Blep
+
+The external libary used was currency converter [pip install --user currencyconverter]
