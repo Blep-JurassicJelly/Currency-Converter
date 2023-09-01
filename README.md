@@ -46,6 +46,7 @@ ERRORS AND BUGS-------------------------------------------------
    The main issue of note is that validation does not work for the value input.
    So please take time when inputing this value if you dont wish to restart the process.
 
+
 Thank you for actually taking the time to read this.
 You made it this far, so I ask that you can feel free to use this code or repository at any time.
 Just please site this if you use the code.
@@ -53,4 +54,5 @@ It may not be that impressive, but I am proud of this code. It has been a fun le
 Siting this would be a sign of appreciation for my work.
 Thank you,
 I look forward to more github shenanigans
+
 -Blep
