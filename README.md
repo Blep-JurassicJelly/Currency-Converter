@@ -57,7 +57,7 @@ Thank you for actually taking the time to read this.
 You made it this far, so I ask that you can feel free to use this code or repository at any time.
 Just please site this if you use the code.
 It may not be that impressive, but I am proud of this code. It has been a fun learing experience. I hope that others can learn from it as well.
-Siting this would be a sign of appreciation for my work.
+Citing this would be a sign of appreciation for my work.
 Thank you,
 I look forward to more github shenanigans
 
